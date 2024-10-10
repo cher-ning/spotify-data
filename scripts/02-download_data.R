@@ -16,9 +16,9 @@ library(tidyverse)
 
 #### Download data ####
 
-radiohead <- get_artist_audio_features("radiohead")
-saveRDS(radiohead, "radiohead.rds")
-radiohead <- readRDS("radiohead.rds")
+linkin <- get_artist_audio_features("linkin park")
+saveRDS(linkin, "linkin.rds")
+linkin <- readRDS("linkin.rds")
 
 #### Save data ####
-write_csv(radiohead, "data/01-raw_data/radiohead.rds") 
+write_rds(linkin, "data/01-raw_data/linkin.rds") 
