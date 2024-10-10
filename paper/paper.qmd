@@ -32,7 +32,7 @@ Linkin Park is one of the perennial rock banks of our time. Notably, they have g
 
 # Data Overview {#sec-data-overview}
 
-This dataset on Linkin Park on Spotify was scraped using the Spotify API [@citeSpotify]. The variables of interest in the paper are Album Release Date, which shows when the album was released. We're also interested in instrumentalness, which predicts if a track has no vocals, and loudness, which shows how loud a song is. We believe these two variables characterize key elements of rock music: instrumental solos and loud vocals.
+This dataset on Linkin Park on Spotify was scraped using the Spotify API [@citeSpotify]. We obtained our dataset on Spotify using Spotify Developer Tools [@citespotifyapi]. The variables of interest in the paper are Album Release Date, which shows when the album was released. We're also interested in instrumentalness, which predicts if a track has no vocals, and loudness, which shows how loud a song is. We believe these two variables characterize key elements of rock music: instrumental solos and loud vocals.
 
 There were 12 rows that only showed the year with no month or date data, so we removed them in our cleaned dataset. 
 
