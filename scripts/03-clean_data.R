@@ -1,11 +1,10 @@
 #### Preamble ####
-# Purpose: Cleans the raw plane data recorded by two observers..... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 6 April 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Cleans the raw Spotify data from Linkin Park
+# Author: Cher Ning-Li, Kevin Roe
+# Date: Oct 10, 2024
+# Contact: cher.ning@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: have Linkin Park data downloaded from Spotify API
 
 #### Workspace setup ####
 library(tidyverse)

@@ -44,7 +44,6 @@ The paper uses the R programming language [@citeR] to analyze the dataset. The t
 #| label: fig-instrumentalness-vs-time
 #| fig-cap: Linkin Park Album Instrumentalness Across Time
 #| echo: false
-# linkin <- as_tibble(data)
 
 data |>
   mutate(album_release_date = ymd(album_release_date)) |>
