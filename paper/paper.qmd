@@ -50,9 +50,8 @@ data |>
   ggplot(aes(
     x = album_release_date,
     y = instrumentalness,
-    group = album_release_date
   )) +
-  geom_jitter(alpha = 0.5, width = 0.3, height = 0) + 
+  geom_jitter(alpha = 0.5, width = 0.3, height = 0) + geom_smooth() +
   theme_minimal() + 
   labs(
     x = "Album release date",
@@ -72,10 +71,9 @@ data |>
   mutate(album_release_date = ymd(album_release_date)) |>
   ggplot(aes(
     x = album_release_date,
-    y = loudness,
-    group = album_release_date
+    y = loudness
   )) +
-  geom_jitter(alpha = 0.5, width = 0.3, height = 0) +
+  geom_jitter(alpha = 0.5, width = 0.3, height = 0) + geom_smooth() +
   theme_minimal() + 
   labs(
     x = "Album release date",
